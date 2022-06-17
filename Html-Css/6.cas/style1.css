@@ -1,0 +1,10 @@
+h1 {
+    font-size: 2em;
+    background-color: brown ;
+    color: aliceblue;
+    font-style: italic;
+}
+p {
+    color: blue;
+    background-color: brown;
+}

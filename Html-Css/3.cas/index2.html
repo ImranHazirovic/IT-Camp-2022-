@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3.cas(2)</title>
+</head>
+
+
+<body>
+    <h2>Forme:</h2>    
+    <p>Na ovoj stranici cemo odraditi forme(ono najvaznije) i videti na koji nacin funkcionise 
+    npr. prijavljivanje na nekoj drustvenoj mrezi</p>
+    <!-- form,h1,p,button su tagovi, a action,type i jos neki koje cemo kasnije raditi su atributi -->
+    <!-- Unutar form taga imamo atribut action koji se odnosi na to gde ce nas odvesti dugme submit -->
+    <form action="./index2.html">
+        <!-- id u inputu mora biti isti kao for  u labelu da bismo povezali -->
+        <label for="name">Unesite svoje ime:</label>
+        <input type="text" name="Ime" id="name" placeholder="Unesite ime" required><br>
+
+        <label for="lastname">Unesite svoje prezime:</label>
+        <input type="text" name="Prezime" id="lastname" placeholder="Unesite svoje prezime" required><br>
+
+        <label for="email">Unesite svoju e-mali adresu:</label>
+        <input type="email" name="Email" id="email" placeholder="Unesite svoju e-mail adresu" required><br>
+
+        <label for="pass">Unesite sifru:</label>
+        <input type="password" name="Sifra" id="pass" required><br>
+
+        <label for="age">Unesite svoje godine:</label>
+        <input type="number" name="Godine" id="age" min="18" max="120" step="3"><br>
+
+        <label for="birthdate">Unesite datum rodjenja:</label>
+        <input type="date" name="Datum Rodjenja" id="birthdate" min="1900-01-01" max="2022-01-01"><br>
+        <p>Odaberite svoje omiljeno voce:</p>
+        
+        <label for="Jagoda">Jagoda</label>
+        <input type="checkbox" name="Jagoda" id="Jagoda" checked><br>
+        <label for="Narandza">Narandza</label>
+        <input type="checkbox" name="Narandza" id="Narandza" ><br>
+        <label for="Jabuka">Jabuka</label>
+        <input type="checkbox" name="Jabuka" id="Jabuka"><br>
+
+        <p>Unesite pol:</p>
+        <!-- kod input tipa RADIO mora postojati VALUE -->
+        <label for="male">Muski</label>
+        <input type="radio" name="Pol" id="male" value="male"><br>
+        <label for="female">Zenski</label>
+        <input type="radio" name="Pol" id="female" value="female"><br>
+
+        <label for="eyecolor">Unesite boja ociju:</label>
+        <select name="eyecolor" id="eyecolor">
+            <option value="Green">Zelena</option>
+            <option value="Blue">Plava</option> 
+            <option value="Brown">Braon</option>
+            <option value="Black">Crna</option>
+        </select> <br>
+
+        <label for="color">Unesite omiljenu boju:</label>
+        <input type="color" name="Boja" id="color">
+
+
+
+        <br><br>
+        <button type="reset">Resetuj</button>
+        <button type="submit">Potvrdi</button>
+    </form>
+
+</body>
+</html>

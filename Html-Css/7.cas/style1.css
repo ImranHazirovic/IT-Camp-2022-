@@ -1,0 +1,24 @@
+h1{
+    background-color: blue;
+}
+h1 {
+    font-size: 3em; 
+    background-color: aquamarine;
+}
+.moja_klasa{
+    font-size: 2em;
+    background-color: brown;
+}
+/* Kada u CSSu radimo na klasi
+koristimo tacku pre naziva klase */
+#moj_el{
+    background-color: blueviolet;
+}
+/* HASHTAG(#) koristimo za ID */
+#moj_el2{
+    background-color: chocolate;
+
+}
+.druga_klasa{
+    background-color:rgb(249, 249, 249);
+}

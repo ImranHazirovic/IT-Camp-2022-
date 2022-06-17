@@ -1,0 +1,68 @@
+h1{
+    color: #120c0c;
+}
+
+div h1{
+    color: red;
+}
+.class1 p{
+    color: greenyellow;
+
+}
+.class1{
+    background-color:aqua;
+    width: 500px;
+    height: 400px;
+    /* border: 3px solid black; */
+    /* border: double darkred; */
+    /* border: dotted lightblue; */
+    border:5px dashed greenyellow;
+    /* margin: 20px; */
+    /* margin: 10px 20px 10px 15px; */
+    margin: 20px 25px;
+    /* padding: 15px   ; */
+    padding: 15px 10px;
+    text-align: center;
+}
+
+#id1{
+    background-color: blueviolet;
+    width: 500px;
+    height: 400px;
+
+
+}
+/* Prednost prilikom doldele stilova ud odnosu na CLASS im ID */
+/* ID koristiti samo ako se pojavljuje samo jednom u nekom tagu  */
+/* Istu klasu mozemo dodeliti na vise HTML Tagova */
+#id2{
+    color: bisque;
+
+}
+.class2{
+    color: red;
+}
+#id1{
+    width: 500px;           
+    height: 500px;
+    /* margin: 20px 30px; */
+    border: 3px dashed royalblue;
+    padding: 15px 30px;
+    text-align: center;
+    background-color: beige ;
+    margin:30px auto;
+    /* border-radius: 10px; */
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+
+}
+#id1 p:hover{
+    background-color: brown ;
+}
+#id1:hover{
+    background-color: aqua;
+}
+#id1 p{
+    color: darkblue;
+
+}
